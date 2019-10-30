@@ -2,7 +2,7 @@
 //	October 30, 2019
 //	Write a program to display the area and perimeter of a rectangle
 
-class RectangleMath {
+class Exercise1_9 {
 	public static void main(String[] args) {
 		System.out.println("Area and Perimeter of Rectangle measuring 4.5 x 7.9");
 		System.out.println("Area =");
