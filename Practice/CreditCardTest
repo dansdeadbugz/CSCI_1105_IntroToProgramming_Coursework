@@ -1,0 +1,38 @@
+package ch42_31;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ch42_31Test {
+
+	@Test
+	public void testIsValid() {
+		assertTrue(Exercise6_31.isValid(5,5), "00005")
+		
+	@Test
+	public void testSumOfDoubleEvenPlace() {
+		assertEquals(Exercise6_31.SumOfDoubleEvenPlace(5,5), "00005")
+	
+	@Test
+	public void testGetDigit() {
+		assertEquals(Exercise6_31.getDigit(5,5), "00005")
+
+	@Test
+	public void testSumOfOddPlace() {
+		assertEquals(Exercise6_31.sumOfOddPlace(5,5), "00005")		
+			
+	@Test
+	public void testPrefixMatched() {
+		assertEquals(Exercise6_31.prefixMatched(5,5), "00005")
+		
+	@Test
+	public void testGetSize() {
+		assertEquals(Exercise6_31.getSize(5,5), "00005")
+		
+	@Test
+	public void testGetPrefix() {
+			assertEquals(Exercise6_31.getPrefix(5,5), "00005")
+	}
+
+}
