@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+/**
+*<h1> Exercise6_17</h1>
+*<p> This Class allows the user to enter an integer value n and get back n x n matrix of random ones and zeros.   </p>
+*@author Daniel Morris
+*@since 2019 - 12 - 21
+*/
+
+class Exercise6_17 {
+	/**
+	*This is the main method. This is where the user is prompted to enter a value for n and then a nested for 
+	*loop prints a matrix of random ones and zeros. 
+	*<b>Example:</b> 
+	* User Input n = 3
+	*Prints to the console:
+	*	011
+	*	101
+	*	001
+	*/
+	public static void main(String[] args) {
+	
+	Scanner input = new Scanner(System.in);
+	System.out.print("Enter n: ");
+	int n = input.nextInt();
+	printMatrix(n);
+	
+	}
+	
+	public static void printMatrix(int n){	
+		
+		System.out.println("------------------");
+		
+		for (int i = 1; i <= n; i++){
+			for (int j = 1; j <= n; j++){
+				System.out.print((int)(Math.random() * 2) + "  ");
+			}
+		System.out.println();
+		}
+	}
+}
