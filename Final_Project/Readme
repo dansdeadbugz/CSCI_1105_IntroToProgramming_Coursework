@@ -1,0 +1,5 @@
+This project is a VinDecoder. It Will allow the user to input a vin number and it should return the country of manufacture as well as the year, make and model of the vehicle. The Code is written in java and includes the use of an array to store the vin number and switches to for each portion of the array to determine the details of the vehicle. 
+
+My motivation behind creating this program is to have a tool to help identify vehicles more accurately and their origin of manufacture. There are a lot of countries making the same car it’s interesting to see where the cars come from. The tool can be used in the purchasing or sale of a vehicle as well in order to ensure you’re listing or purchasing the correct vehicle. 
+
+The best way to test this project is to grab a vin number from a listing and throw it in the program. The program should kick out the correct info for the vehicle. This Project was made soley by myself, Daniel Morris and is not licensed. 
